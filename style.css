@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+#div{
+    background-color: rgb(230, 214, 204);
+}
 .div1{
     display: flex;
     margin-top: 50px;
@@ -21,19 +24,37 @@ button{
     text-align: center;
     font-size: small;
 }
-.i{
-    border-radius: 50%;
-    width: 60%;
-    height: 60%;
-    
-}
-#img1{
-    width: 30px;
-    height: 20px;
-    background-color: white;
-    text-align: center;
-}
 .im{
 display: flex;
 justify-content: space-around;
+}
+@media  screen and (max-width: 1025px) {
+    .d1 .d2 .d3{
+        display: flex;
+        flex-direction: row;
+    }
+    .d4{ 
+        flex-direction: column;
+    }
+}
+nav ul li {
+    flex-direction: row;
+}
+.p1{
+    font-size: medium;
+}
+.p2{
+    color: rgb(146, 28, 28);
+}
+.merci{
+    text-align: center;
+}
+.très{
+    display: flex;
+}
+.ligne_orange{
+    border-left-color: rgba(224, 113, 10, 0.993);
+}
+a{
+text-decoration: red;    
 }
