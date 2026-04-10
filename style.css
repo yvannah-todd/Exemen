@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    display: flex;
+    margin-top: 50px;
+    background-color: rgb(230, 214, 204);
+    align-items: center;
+    padding-left: 50px;
+}
+.img{
+    width: 75%;
+    height: 75%;
+    float: right;
+}
+button{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    font-size: small;
+}
+.i{
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+    
+}
+#img1{
+    width: 30px;
+    height: 20px;
+    background-color: white;
+    text-align: center;
+}
+.im{
+display: flex;
+justify-content: space-around;
+}
